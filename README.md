@@ -1,2 +1,12 @@
 # TensorFlow_assignment
 deep learning coursera_ course2_week3_assignment
+import math
+import numpy as np
+import h5py
+import matplotlib.pyplot as plt
+import tensorflow as tf
+from tensorflow.python.framework import ops
+from tf_utils import load_dataset, random_mini_batches, convert_to_one_hot, predict
+
+%matplotlib inline
+np.random.seed(1)
